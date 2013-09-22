@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-01-18T12:18:29Z" product-name="kvrlp_securedownloads">
+		<header/>
+		<body>
+
+			<trans-unit id="frontend_user_group.description">
+				<source>frontendUserGroup</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

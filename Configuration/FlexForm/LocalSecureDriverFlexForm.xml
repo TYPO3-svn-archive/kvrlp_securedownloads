@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<ROOT>
+		<type>array</type>
+		<el>
+			<basePath>
+				<TCEforms>
+					<label>LLL:EXT:lang/locallang_mod_file_list.xlf:localDriverFlexform_basePath</label>
+					<config>
+						<type>input</type>
+						<default>fileadmin/</default>
+						<size>30</size>
+					</config>
+				</TCEforms>
+			</basePath>
+			<pathType>
+				<TCEforms>
+					<label>LLL:EXT:lang/locallang_mod_file_list.xlf:localDriverFlexform_pathType</label>
+					<config>
+						<type>radio</type>
+						<items type="array">
+							<numIndex index="0" type="array">
+								<numIndex index="0">LLL:EXT:lang/locallang_mod_file_list.xlf:localDriverFlexform_pathType_relative</numIndex>
+								<numIndex index="1">relative</numIndex>
+							</numIndex>
+							<numIndex index="1" type="array">
+								<numIndex index="0">LLL:EXT:lang/locallang_mod_file_list.xlf:localDriverFlexform_pathType_absolute</numIndex>
+								<numIndex index="1">absolute</numIndex>
+							</numIndex>
+						</items>
+						<default>relative</default>
+					</config>
+				</TCEforms>
+			</pathType>
+            <limitGroup>
+                <TCEforms>
+                    <label>Fe-Zugriff auf Nutzergruppe einschränken</label>
+                    <config>
+                        <type>group</type>
+                        <internal_type>db</internal_type>
+                        <allowed>fe_groups</allowed>
+                        <size>3</size>
+                        <maxitems>999</maxitems>
+                        <minitems>0</minitems>
+                        <show_thumbs>1</show_thumbs>
+                    </config>
+                </TCEforms>
+            </limitGroup>
+            <forceDownload>
+                <TCEforms>
+                    <label>Erzwinge Download</label>
+                    <config>
+                        <type>check</type>
+                    </config>
+                </TCEforms>
+            </forceDownload>
+            <allowedIps>
+                <TCEforms>
+                    <label>Kommagetrennte Liste mit IPs welche immer Zugriff auf die Datei haben</label>
+                    <config>
+                        <type>input</type>
+                        <default>127.0.0.1</default>
+                        <size>60</size>
+                    </config>
+                </TCEforms>
+            </allowedIps>
+		</el>
+	</ROOT>
+</T3DataStructure>

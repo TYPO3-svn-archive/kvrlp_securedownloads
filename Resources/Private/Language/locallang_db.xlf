@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-01-18T12:18:29Z" product-name="kvrlp_securedownloads">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_kvrlpsecuredownloads_domain_model_file">
+				<source>File</source>
+			</trans-unit>
+			<trans-unit id="tx_kvrlpsecuredownloads_domain_model_file.frontend_user_group">
+				<source>Frontend User Group</source>
+			</trans-unit>
+			
+			<trans-unit id="sys_file.tx_extbase_type.Tx_KvrlpSecuredownloads_File">
+				<source>Secure Downloads File</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>
